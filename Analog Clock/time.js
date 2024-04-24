@@ -7,5 +7,6 @@ setInterval(function()  {
     const time = `${hours}:$
     {minutes.toString().padStart(2, '0')}:$
     {seconds.toString().padStart(2, '0')}`;
+
     
 }, interval);
