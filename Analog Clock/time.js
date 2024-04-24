@@ -8,5 +8,5 @@ setInterval(function()  {
     {minutes.toString().padStart(2, '0')}:$
     {seconds.toString().padStart(2, '0')}`;
 
-    document.q
-}, interval);
+    document.querySelector('.time').innerText = time;
+}, 1000);
